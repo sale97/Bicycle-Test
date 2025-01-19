@@ -1,0 +1,243 @@
+main {
+  font-weight: 400;
+  padding-left: 22vh;
+  padding-right: 22vh;
+}
+
+.page-line {
+  margin-top: 40px;
+
+  img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  a {
+    color: #1E1E1E;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .icons {
+    img {
+      padding-right: 20px;
+      height: 2vh;
+    }
+
+    .share-nodes {
+      padding-right: 0;
+    }
+  }
+
+  h1 {
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+}
+
+.bike {
+  display: flex;
+
+  .bike-text {
+    background-color: #F2F2F2;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 3vh;
+
+
+    .select {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .checkbox {
+      display: flex;
+      padding-top: 15px;
+      font-size: 1.6vh;
+      align-items: center;
+
+
+      p {
+        padding-left: 5px;
+      }
+
+      input {
+        width: 18px;
+        height: 20px;
+      }
+
+      input:checked {
+        accent-color: #00A878;
+      }
+    }
+
+    .input-box {
+      display: flex;
+      margin-top: 20px;
+
+      select {
+        width: 200px;
+        height: 56px;
+        text-align: left;
+        border-color: white;
+        border-radius: 5px 5px 0 0;
+        font-size: 1.6vh;
+        margin-right: 20px;
+      }
+
+
+    }
+
+
+    .btn {
+      padding-bottom: 7vh;
+
+      .button {
+        padding: 1.5vh 3.8vh 1.5vh 3.8vh;
+        background-color: #00A878;
+        border: 2px solid #00A878;
+        border-radius: 4px;
+        color: white;
+        font-size: 2vh;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+
+      .btn-contact {
+        background-color: white;
+        border: 2px solid #DEDEDE;
+        color: #00A878;
+      }
+
+      .button:active {
+
+        background-color: rgba(119, 119, 119, 0.439);
+        border-color: rgba(111, 111, 111, 0.439);
+
+      }
+    }
+
+
+    i {
+      color: #FE5E41;
+      font-style: normal;
+    }
+
+  }
+}
+
+.bike-img {
+  align-items: center;
+  display: flex;
+  padding-right: 50px;
+
+  img {
+    height: 50vh;
+  }
+
+  .bike-arrow {
+    height: 6vh;
+  }
+}
+
+
+.desc {
+  display: flex;
+  font-weight: bold;
+  padding-top: 80px;
+
+  a {
+    margin-right: 50px;
+    color: #1E1E1E;
+  }
+}
+
+.line {
+  background-color: #DEDEDE;
+  height: 1px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.product-desc {
+  display: flex;
+
+  .text-img-mobie {
+    display: none;
+  }
+
+  img {
+    height: 52vh;
+    padding-bottom: 50px;
+  }
+
+  .text-desc {
+    padding-right: 25vh;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .button {
+      padding: 1.5vh 4vh 1.5vh 4vh;
+      background-color: white;
+      border: 2px solid #DEDEDE;
+      border-radius: 4px;
+      color: #FE5E41;
+      font-size: 2vh;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .button:active {
+
+      background-color: rgba(255, 166, 0, 0.439);
+      border-color: rgba(255, 166, 0, 0.439);
+
+    }
+
+  }
+}
+
+.technical {
+  background-color: #F2F2F2;
+  padding-bottom: 10vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 40px;
+
+
+  table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+
+
+
+    .table-top {
+      color: #FE5E41;
+      text-align: left;
+      padding-right: 120px;
+    }
+
+    td,
+    th {
+      font-size: 1.6vh;
+      padding: 15px 0px 15px 15px;
+    }
+
+    tr:nth-child(even) {
+      background-color: white;
+    }
+  }
+}
